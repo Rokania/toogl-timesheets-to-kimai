@@ -32,7 +32,7 @@ class Kimai {
         project: projectId,
         begin: start_date,
         end: end_date,
-        activity: 1,
+        activity: process.env.KIMAI_ID_ACTIVITY,
         description
       });
       return data;

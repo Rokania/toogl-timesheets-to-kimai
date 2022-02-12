@@ -1,28 +1,28 @@
 # toggl-timesheets-to-kimai
 
-Ce script permet de transférer les timesheets provenant de Toggl vers Kimai.
+This script allows to transfer timesheets from Toggl Track to Kimai. The name of the project should be exactly the same in Toggl and Kimai.
 
-## Comment l'utiliser
+## How to use it
 
-### Variables d'env
+### Env variables
 
-Pour utiliser le script il faut créer un fichier `.env` contenant toutes les variables d'env du fichier `.env.sample`.
+To use the script you need to create a `.env` file containing all the env variables in the `.env.sample` file.
 
-#### Clé API Toggl
+#### Toggl API key
 
-Pour trouver la clé d'API de Toggl, il faut aller dans `Profile setting` et ensuite aller dans `API Token`.
+To find the Toggl API key, go to `Profile setting` and then go to `API Token`.
 
-#### Clé API Kimai
+#### Kimai API key
 
-Pour trouver la clé d'API de Kimai, il faut cliquer sur votre profil en haut à droite puis sur `Editer`. Créer le nouveau `Mot de passe de l'API`.
+To find the Kimai API key, click on your profile in the upper right corner and then click on `Edit`. Create the new `API Password`.
 
-### Lancer le script 
+### Launch the script 
 
-Pour lancer le script il suffit de taper 
+To launch the script you just have to type 
 
 ``` bash
 > npm i
 > npm start
 ```
 
-Taper ensuite la date de début (format YYYY-MM-DD) et la date de fin (format YYYY-MM-DD).
+Then type the start date (format YYYY-MM-DD) and the end date (format YYYY-MM-DD).
